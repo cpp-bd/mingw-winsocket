@@ -1,8 +1,10 @@
 ### Windows Socket Sniffing
 ```cc
 /*
-From Qt MinGW Command Prompt
-gcc winsock_sniffer.c D:\github\libws2_32.a
+Qt MinGW Command Prompt
+>> gcc winsock_sniffer.c D:\github\libws2_32.a
+Visual Studio Command Prompt
+cl winsock_sniffer.c
 */
 
 #include "stdio.h"
