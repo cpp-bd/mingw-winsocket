@@ -1,3 +1,12 @@
+/*
+TEMPLATE = app
+CONFIG += console c++11
+CONFIG -= app_bundle
+CONFIG -= qt
+LIBS += -lws2_32
+SOURCES += main_qt.cpp
+*/
+
 #undef UNICODE
 
 #define WIN32_LEAN_AND_MEAN
