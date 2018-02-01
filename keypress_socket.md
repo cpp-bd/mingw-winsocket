@@ -9,6 +9,7 @@ LIBS += -lws2_32
 SOURCES += keypress_socket.cpp
 */
 
+// gcc winsock_sniffer.c D:\github\libws2_32.a
 // telnet 127.0.0.1 5555
 
 #undef UNICODE
