@@ -2,9 +2,10 @@
 ```cc
 /*
 Qt MinGW Command Prompt
-	gcc winsock_sniffer.c D:\github\libws2_32.a
+gcc winsock_sniffer.c D:\github\libws2_32.a
+	
 Visual Studio Command Prompt
-	cl winsock_sniffer.c
+cl winsock_sniffer.c
 */
 
 #include "stdio.h"
