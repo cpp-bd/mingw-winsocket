@@ -1,11 +1,15 @@
+### Socket Server Creation
+```cc
 /*
 TEMPLATE = app
 CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 LIBS += -lws2_32
-SOURCES += main_qt.cpp
+SOURCES += server_socket.cpp
 */
+
+// telnet 127.0.0.1 5555
 
 #undef UNICODE
 
@@ -147,3 +151,4 @@ int __cdecl main(void)
 	getchar();
 	return 0;
 }
+```
