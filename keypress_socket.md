@@ -6,7 +6,7 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 LIBS += -lws2_32
-SOURCES += server_socket.cpp
+SOURCES += keypress_socket.cpp
 */
 
 // telnet 127.0.0.1 5555
